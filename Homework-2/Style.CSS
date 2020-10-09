@@ -1,0 +1,120 @@
+.media {
+    float: left;
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    image-rendering: auto;
+}
+
+.nav-item {
+    float: right;
+
+}
+
+.card-text {
+    float: right;
+}
+
+.img-thumbnail {
+    width: 30%;
+    padding: 5px;
+    margin: 1%;
+
+}
+
+h5 {
+    color: teal;
+    font-size: 150%;
+}
+
+h1 {
+    color: teal;
+    font-size: 150%;
+}
+
+
+.img-fluid {
+    width: 30%;
+    padding: 20px;
+    /* margin: auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: block; */
+    position: relative;
+    /* align-items: center; */
+    float: left;
+    position: relative;
+}
+
+.Tree {
+    position: relative;
+    width: 60%;
+    padding: 20px;
+    margin-top: -48%;
+}
+
+form {
+    padding: 10px;
+}
+
+h2 {
+    color: teal;
+    padding: 15px;
+}
+
+#SubmitButton {
+    background-color: teal;
+}
+
+#staticEmail {
+    color: blue;
+    text-decoration: underline;
+    text-align: left;
+    padding: 5px;
+    margin-left: 5%;
+
+}
+
+.footer {
+    /* background-color: grey; */
+    /* margin-top: auto; */
+    /* height: 50px; */
+    /* text-align: center; */
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: teal;
+   text-align: center;
+}
+
+@media screen and(max-width: 700px) {
+    .img-fluid  {
+        float: none;
+        width: 100%;
+      }
+}
+
+h3 {
+    padding: 15px;
+    color: teal;
+
+
+}
+
+.resume {
+    padding: 10px;
+}
+
+h6 {
+    padding: 5px;
+}
+.media-body {
+    padding: 5px;
+}
+
+.form-group {
+    padding: 5px;
+    text-align: left;
+}
